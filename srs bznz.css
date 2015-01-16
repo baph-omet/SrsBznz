@@ -1,0 +1,226 @@
+@font-face {
+    font-family:fira;
+    src:url('assets/FiraSansOT-Regular.otf')
+}
+
+* {
+    font-family:fira;
+}
+
+body {
+    margin:0;
+    background:#ddd url('assets/fuzz.png');
+}
+
+#header {
+    height:150px;
+    background:linear-gradient(white,#eaeaea);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    border-bottom:2px solid #bbb;
+    /* box-shadow:0 0 10px 0 black; */
+}
+
+#header a {
+    color:black;
+    text-decoration:none;
+}
+
+#header a:hover {
+    color:#555;
+}
+
+#header img {
+    display:inline-block;
+    margin-bottom:-11px;
+    max-width:45px;
+}
+
+#titlecontainer {
+    margin-left:50px;
+    margin-top:50px;
+}
+
+h1 {
+    max-width:250px;
+    display:inline;
+    margin-right:10px;
+}
+
+#nav {
+    position:absolute;
+    right:50px;
+    top:38px;
+}
+
+#nav li {
+    list-style:none;
+    display:inline-block;
+    padding:5px 10px;
+    border-right:1px solid #dedede;
+    margin-left:-4px;
+}
+
+#nav li:hover {
+    background:white;
+}
+
+#nav a {
+    color:black;
+}
+
+#nav a:last-child  li {
+    border:0px;
+}
+
+#pagewrapper {
+    margin-top:152px;
+    margin-bottom:0;
+    height:auto;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#spotlightbox {
+    position:relative;
+    width:1000px;
+}
+
+#spotlight {
+    display:inline;
+    width:1000px;
+    height:auto;
+    margin-top:20px;
+    text-align:center;
+    border:3px solid #888;
+    z-index:-1;
+    /* box-shadow: 1px 1px 10px 0px black; */
+}
+
+#slcontrols {
+    position:relative;
+    width:1000px;
+    left:3px;
+    bottom:0;
+    margin-top:-45px;
+    background-color:black;
+    background-opacity:.5;
+    z-index:10;
+}
+
+.slbutton {
+    display:inline-block;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    font-size:20pt;
+    cursor:pointer;
+}
+
+.slbutton:hover {
+    border:1px solid #555555;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:2px;
+    padding-bottom:2px;
+    background:linear-gradient(#111,#000);
+}
+
+h2 {
+    text-align:center;
+    
+}
+
+#pagewrapper > p {
+    text-align:center;
+    margin:0;
+    margin-bottom:50px;
+    width:1000px;
+}
+
+#tests {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
+
+.testimonial:first-child {
+    margin-left:0;
+}
+
+.testimonial:last-child {
+    margin-right:0;
+}
+
+.testimonial {
+    background:#8a8a8a;
+    width:250px;
+    height:auto;
+    vertical-align:top;
+    display:inline-block;
+    padding:10px;
+    text-align:justify;
+    border-radius:10px;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+    margin-left:44px;
+    margin-right:44px;
+}
+
+h3 {
+    margin-top:0;
+}
+
+#footer {
+    background:#333 url('assets/crackle.png');
+    left:0;
+    right:0;
+    bottom:0;
+    height:200px;
+    border-top:2px solid black;
+    margin:0;
+}
+
+#footer div {
+    display:inline-block;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+#footer p {
+    color:white;
+    text-align:justify;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+h4 {
+    color:#aaa;
+    margin-bottom:0;
+    margin-left:20px;
+    margin-top:50px;
+}
+
+#footer ul {
+    margin-top:0;
+    list-style:none;
+}
+
+#footer a {
+    color:white;
+    text-decoration:none;
+}
+
+#footer a:hover {
+    color:#a8a8a8;
+}
